@@ -1,3 +1,18 @@
+libtirpc (0.2.5-1ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2016-4429.diff: fix in src/clnt_dg.c.
+    - CVE-2016-4429
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2017-8779.patch: fix in src/rpc_generic.c,
+      src/rpcb_prot.c, src/rpcb_st_xdr.c, src/xdr.c.
+    - CVE-2017-8779
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2018-14622.patch: fix in src/svc_c.c.
+    - CVE-2018-14622
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Tue, 04 Sep 2018 10:55:02 -0300
+
 libtirpc (0.2.5-1) unstable; urgency=medium
 
   * New upstream version 0.2.5.
